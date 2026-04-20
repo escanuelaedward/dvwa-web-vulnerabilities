@@ -114,6 +114,7 @@ Impact:
 ### Reflected XSS Execution
 
 ![XSS Alert](assets/xss_alert_1.png)
+
 JavaScript payload executed successfully, confirming reflected XSS vulnerability.
 
 ---
@@ -121,6 +122,7 @@ JavaScript payload executed successfully, confirming reflected XSS vulnerability
 ### XSS Payload Variation
 
 ![XSS Alert 2](assets/xss_alert_2.png)
+
 Second payload confirms the vulnerability is consistent and repeatable.
 
 ---
@@ -128,6 +130,7 @@ Second payload confirms the vulnerability is consistent and repeatable.
 ### SQL Injection - Database Access
 
 ![SQL Injection Root](assets/sql_injection_root.png)
+
 Injection reveals database user running as root, indicating critical misconfiguration.
 
 ---
@@ -135,6 +138,7 @@ Injection reveals database user running as root, indicating critical misconfigur
 ### SQL Injection - Credential Extraction
 
 ![SQL Injection Hashes](assets/sql_injection_hashes.png)
+
 Usernames and hashed passwords extracted from the database.
 
 ---
@@ -142,6 +146,7 @@ Usernames and hashed passwords extracted from the database.
 ### File Creation via SQL Injection
 
 ![File Creation](assets/file_creation_1.png)
+
 File successfully written to the server using SQL injection.
 
 ---
@@ -149,6 +154,7 @@ File successfully written to the server using SQL injection.
 ### Repeated File Creation
 
 ![File Creation 2](assets/file_creation_2.png)
+
 Second file confirms the ability to modify the server filesystem reliably.
 
 ---
